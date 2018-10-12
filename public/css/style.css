@@ -65,6 +65,14 @@ html {
 	height: 250px;
 }
 
+.mast-text {
+	font-size: 40px;
+}
+
+.mast-text a{
+	font-size: 20px;
+}
+
 .index-l *{
 	text-align: right;
 }
