@@ -1,7 +1,16 @@
-.icon-w {
-	height: 50px;
-	width: 125px;
-    border-radius: 5%;
+html {
+	background-color: #fff3cc;
+}
+
+.blur {
+	filter: blur(4px);
+}
+
+.icon-badge {
+	vertical-align: middle;
+	height: 100px;
+	width: 250px; 
+	border-radius: 10px 10px 10px 10px;
 }
 
 .icon-p {
@@ -10,6 +19,48 @@
     border-radius: 100%;
 }
 
+.modal {
+	filter: none;
+	visibility: hidden;
+
+	display: none;
+
+	position: fixed;
+	margin: auto;
+	top: 0;
+	right: 0;
+	bottom: 10%;
+	left: 0;
+	width: 40%;
+	height: max-content;
+	background-color: #f5e0ff;
+	border-radius: 15px 15px 15px 15px;
+}
+
+.screen {
+	filter: blur(0px);
+
+	visibility: hidden;
+	display: none;
+
+	position:fixed;
+    padding:0;
+    margin:0;
+
+    top:0;
+    left:0;
+
+    width: 100%;
+    height: 100%;
+	background:rgba(0, 0, 0, 0.6);
+}
+
+.is-active {
+	visibility: visible;
+	display: initial;
+}
+
+/*
 .col {
 	text-align: right;
 }
@@ -17,3 +68,4 @@
 .col *{
 	text-align: left;
 }
+*/

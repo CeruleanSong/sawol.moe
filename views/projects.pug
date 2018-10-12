@@ -1,43 +1,116 @@
 extends layout
 
 block content
+	
+	div(class='content')
+		div(class="section")
+			h1 Completed 
+				i(class="fas fa-check-square fa-lg")
 
-	// ashleycss
-	div(class="row")
-		div(class="col")
-			a(href="https://bitbucket.org/CeruleanSong/ashleycss/src/master/") ashleycss
-				img(class="icon-w", src="/img/badges/ashleycss-badge.png")
-		div(class="col")
-			p Lightweight css framework
+				// ashleycss
+				div(class="row")
+					div(class="col proj")
+						div ashleycss
+						img(class="icon-badge", id='ashley',
+							src="/img/badges/ashleycss-badge.png")
+							
+				// araragi
+				div(class="row")
+					div(class="col proj")
+						div araragi
+						img(class="icon-badge", id='araragi',
+							src="/img/badges/araragi-badge.png")
 
-	// araragi
-	div(class="row")
-		div(class="col")
-			a(href="https://bitbucket.org/CeruleanSong/araragi/src/master/") araragi
-				img(class="icon-w", src="/img/badges/araragi-badge.png")
-		div(class="col")
-			p A commandline tool made in c++ for downloading image galleries.
+				// ashleybot
+				div(class="row")
+					div(class="col proj")
+						div ashleybot
+						img(class="icon-badge", id='ashleybot'
+							,src="/img/badges/ashleybot-badge.png")
 
-	// kurisu
-	div(class="row")
-		div(class="col")
-			a(href="https://github.com/Tromodolo/Kurisu-Node") kurisu
-				img(class="icon-w", src="/img/badges/kurisu-badge.png")
-		div(class="col")
-			p A all purpose discord bot. Made in collaberation with Tromo visit him at his #[a(href="https://tro.moe/") website]
+		div(class="section")
+			h1 Under Construction 
+				i(class="fas fa-cogs fa-lg")
 
-	// ashleybot
-	div(class="row")
-		div(class="col")
-			a(href="https://bitbucket.org/CeruleanSong/ashleybot/src/master/") ashleybot
-				img(class="icon-w", src="/img/badges/ashleybot-badge.png")
-		div(class="col")
-			p A Discord music bot made in nodejs.
+				// kurisu
+				div(class="row")
+					div(class="col proj")
+						div kurisu
+						img(class="icon-badge", id='kurisu',
+							src="/img/badges/kurisu-badge.png")
 
-	// sakura
-	div(class="row")
-		div(class="col")
-			a(href="https://github.com/CeruleanSong/sakura") sakura
-				img(class="icon-w", src="/img/badges/sakura-badge.png")
-		div(class="col")
-			p A android manga reader.
+				// sakura
+				div(class="row")
+					div(class="col proj")
+						div sakura
+						img(class="icon-badge", id='sakura',
+							src="/img/badges/sakura-badge.png")
+
+	//////////////////////////////////////////////////
+	//												//
+	//					Modals						//
+	//												//
+	//////////////////////////////////////////////////
+
+	div(class='modals')
+		div(class='screen')
+
+		// ashley
+		div(class='modal', id='ashley-modal')
+			h5 ashleycss
+			div(class="row")
+				div(class="col")
+					img(class="icon-badge", src="/img/badges/ashleycss-badge.png")
+				div(class="col")
+					p A lightweight css framework/theme with modules that focuses on minimalism. #[b less than 2kb]
+					a(href='https://bitbucket.org/CeruleanSong/ashleycss/src/master/')
+						button(class="outline") download
+			div(class='center close') close
+
+		// araragi
+		div(class='modal', id='araragi-modal')
+			h5 araragi
+			div(class="row")
+				div(class="col")
+					img(class="icon-badge", src="/img/badges/araragi-badge.png")
+				div(class="col")
+					p A commandline tool made in c++ for downloading doujinshi, and image galleries.
+					a(href='https://bitbucket.org/CeruleanSong/araragi/src/master/')
+						button(class="outline") download
+			div(class='center close') close
+
+		// ashleybot
+		div(class='modal', id='ashleybot-modal')
+			h5 ashleybot
+			div(class="row")
+				div(class="col")
+					img(class="icon-badge", src="/img/badges/ashleybot-badge.png")
+				div(class="col")
+					p A Discord music bot made in nodejs.
+					a(href='https://bitbucket.org/CeruleanSong/ashleybot/src/master/')
+					button(class="outline") download
+			div(class='center close') close
+
+		// kurisu
+		div(class='modal', id='kurisu-modal')
+			h5 kurisu
+			div(class="row")
+				div(class="col")
+					img(class="icon-badge", src="/img/badges/kurisu-badge.png")
+				div(class="col")
+					p A all purpose discord bot. Made in collaberation with Tromo visit him at his #[a(href='https://tro.moe/') website]
+					a(href='https://github.com/Tromodolo/Kurisu-Node')
+					button(class="outline") download
+			div(class='center close') close
+
+		// sakura
+		div(class='modal', id='sakura-modal')
+			h5 sakura
+			div(class="row")
+				div(class="col")
+					img(class="icon-badge", src="/img/badges/sakura-badge.png")
+				div(class="col")
+					p A android manga reader. In super Early stages.
+					a(href='https://github.com/CeruleanSong/sakura')
+					button(class="outline") download
+			div(class='center close') close

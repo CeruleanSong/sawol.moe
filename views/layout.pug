@@ -2,15 +2,29 @@ doctype html
 html
 	head
 		title Megumin
-		link(rel='stylesheet', type='text/css', href='https://unpkg.com/ashleycss')
+		
+		// local assets
+		script(type='text/javascript', src='/scripts/jquery.js')
+		script(type='text/javascript', src='/scripts/script.js')
 		link(rel='stylesheet', type='text/css', href='/style.css')
 		link(rel='shortcut icon', type='x-icon' href='/favicon.ico')
+
+		// ashleycss
+		link(rel='stylesheet', type='text/css', href='https://unpkg.com/ashleycss')
+		
+		// Font Awesome
+		link(rel='stylesheet', href='https://use.fontawesome.com/releases/v5.3.1/css/solid.css',
+			integrity="sha384-VGP9aw4WtGH/uPAOseYxZ+Vz/vaTb1ehm1bwx92Fm8dTrE+3boLfF1SpAtB1z7HW", crossorigin="anonymous")
+		link(rel='stylesheet', href='https://use.fontawesome.com/releases/v5.3.1/css/fontawesome.css',
+			integrity="sha384-1rquJLNOM3ijoueaaeS5m+McXPJCGdr5HcA03/VHXxcp2kX2sUrQDmFc3jR5i/C7", crossorigin="anonymous")
 
 	body
 		div(class='nav-container')
 			a(class='nav-logo', href='/') Sawol.moe
 			a(class='nav-object', href='/about') About Me
 			a(class='nav-object', href='/projects') Projects
+			a(class='nav-object', href='/projects') Portfolio
+			a(class='nav-object', href='/projects') Portal
 
 		div(class="container")
 			block content
