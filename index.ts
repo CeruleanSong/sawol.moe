@@ -4,7 +4,7 @@ import bodyParser from "body-parser";
 import cookieParser from "cookie-parser";
 import createError from "http-errors";
 // controllers
-import { CssController, IndexController, ProjectsController, AboutController } from "./routes";
+import { CssController, IndexController, ProjectsController, AboutController, PortalController, PortfolioController } from "./routes";
 
 // other
 import config from "./config.json";
@@ -38,6 +38,9 @@ app.use("/", IndexController);
 app.use("/css", CssController);
 app.use("/about", AboutController);
 app.use("/projects", ProjectsController);
+app.use("/portfolio", PortfolioController);
+app.use("/portal", PortalController);
+
 
 //////////////////////////////////////////////////
 //												//
@@ -55,6 +58,7 @@ app.use(function(req, res, next) {
 	// set locals, only providing error in development
 	res.locals.message = err.message;
 	res.locals.error = req.app.get('env') === `${config.env}` ? err : {};
+	res.locals.status = err.status
   
 	// render the error page
 	res.status(err.status || 500);
