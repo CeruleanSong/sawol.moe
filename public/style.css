@@ -1,0 +1,19 @@
+.icon-w {
+	height: 50px;
+	width: 125px;
+    border-radius: 5%;
+}
+
+.icon-p {
+	height: 300px;
+	border: 5px #ea9329 solid;
+    border-radius: 100%;
+}
+
+.col {
+	text-align: right;
+}
+
+.col *{
+	text-align: left;
+}
