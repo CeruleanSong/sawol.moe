@@ -1,5 +1,3 @@
-#!/usr/bin/env ts-node
-
 import express, { NextFunction } from "express";
 import path from "path";
 import bodyParser from "body-parser";
