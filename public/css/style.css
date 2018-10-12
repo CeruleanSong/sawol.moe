@@ -60,12 +60,19 @@ html {
 	display: initial;
 }
 
-/*
-.col {
+.mast-img {
+	border-radius: 100%;
+	height: 250px;
+}
+
+.index-l *{
 	text-align: right;
 }
 
-.col *{
+.index-l {
+	text-align: right;
+}
+
+.index-r *{
 	text-align: left;
 }
-*/
