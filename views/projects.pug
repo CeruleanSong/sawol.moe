@@ -1,50 +1,53 @@
-extends layout
+extends layout-vertical
 
 block content
 	
-	div(class='content')
-		div(class="section center")
+	div(class='content center')
+		div(class="section")
 			h1 Completed 
 				i(class="fas fa-check-square fa-lg")
 
+			div(class="row")
 				// ashleycss
-				div(class="row")
-					div(class="col proj")
+				div(class="col")
+					div(class="proj")
 						div ashleycss
 						img(class="icon-badge", id='ashley',
-							src="/img/badges/ashleycss-badge.png")
-							
+							src="/img/badges/ashleycss-badge-small.png")
+
 				// araragi
-				div(class="row")
-					div(class="col proj")
+				div(class="col")
+					div(class="proj")
 						div araragi
 						img(class="icon-badge", id='araragi',
-							src="/img/badges/araragi-badge.png")
+							src="/img/badges/araragi-badge-small.png")
 
-				// ashleybot
 				div(class="row")
-					div(class="col proj")
-						div ashleybot
-						img(class="icon-badge", id='ashleybot'
-							,src="/img/badges/ashleybot-badge.png")
+					// ashleybot
+					div(class="col")
+						div(class="proj")
+							div ashleybot
+							img(class="icon-badge", id='ashleybot'
+								,src="/img/badges/ashleybot-badge-small.png")
 
-		div(class="section center")
+		div(class="section")
 			h1 Under Construction
 				i(class="fas fa-spinner fa-lg")
 
+			div(class="row")
 				// kurisu
-				div(class="row")
-					div(class="col proj")
+				div(class="col")
+					div(class="proj")
 						div kurisu
 						img(class="icon-badge", id='kurisu',
-							src="/img/badges/kurisu-badge.png")
+							src="/img/badges/kurisu-badge-small.png")
 
 				// sakura
-				div(class="row")
-					div(class="col proj")
+				div(class="col")
+					div(class="proj")
 						div sakura
 						img(class="icon-badge", id='sakura',
-							src="/img/badges/sakura-badge.png")
+							src="/img/badges/sakura-badge-small.png")
 
 	//////////////////////////////////////////////////
 	//												//
@@ -60,7 +63,7 @@ block content
 			h5 ashleycss
 			div(class="row")
 				div(class="col")
-					img(class="icon-badge", src="/img/badges/ashleycss-badge.png")
+					img(class="icon-badge", src="/img/badges/ashleycss-badge-small.png")
 				div(class="col")
 					p A lightweight css framework/theme with modules that focuses on minimalism. #[b less than 2kb]
 					a(href='https://bitbucket.org/CeruleanSong/ashleycss/src/master/')
@@ -72,7 +75,7 @@ block content
 			h5 araragi
 			div(class="row")
 				div(class="col")
-					img(class="icon-badge", src="/img/badges/araragi-badge.png")
+					img(class="icon-badge", src="/img/badges/araragi-badge-small.png")
 				div(class="col")
 					p A commandline tool made in c++ for downloading doujinshi, and image galleries.
 					a(href='https://bitbucket.org/CeruleanSong/araragi/src/master/')
@@ -84,7 +87,7 @@ block content
 			h5 ashleybot
 			div(class="row")
 				div(class="col")
-					img(class="icon-badge", src="/img/badges/ashleybot-badge.png")
+					img(class="icon-badge", src="/img/badges/ashleybot-badge-small.png")
 				div(class="col")
 					p A Discord music bot made in nodejs.
 					a(href='https://bitbucket.org/CeruleanSong/ashleybot/src/master/')
