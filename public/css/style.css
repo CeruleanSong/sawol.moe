@@ -1,5 +1,6 @@
 html {
-	background-color: #fff3cc;
+	/* background-color: #ffb7c5; */
+	height: 100%;
 }
 
 .blur {
@@ -67,7 +68,7 @@ html {
 
 .mast-img {
 	border-radius: 100%;
-	height: 250px;
+	height: 300px;
 }
 
 .mast-text {
@@ -88,4 +89,25 @@ html {
 
 .index-r *{
 	text-align: left;
+}
+
+.diag-bg {
+	position: relative;
+	background: repeating-linear-gradient(
+		-45deg,
+		#ffe0c0,
+		#ffe0c0 50%,
+		#ffffc0 0%,
+		#ffffc0 100%);
+}
+
+
+.vert-bg {
+	position: relative;
+	background: repeating-linear-gradient(
+		-90deg,
+		#ffe0c0,
+		#ffe0c0 50%,
+		#ffffc0 0%,
+		#ffffc0 100%);
 }
