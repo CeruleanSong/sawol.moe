@@ -1,6 +1,9 @@
 html {
 	/* background-color: #ffb7c5; */
-	height: 100%;
+	
+	position: relative;
+	height: auto;
+	min-height: 100% !important;
 }
 
 .blur {
