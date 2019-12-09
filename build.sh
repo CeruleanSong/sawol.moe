@@ -13,12 +13,12 @@
 if [ "$1" = "run" ] # run program
 then
 	# move to bot dir and run bot
-	cd dist && node index.js
+	cd js && node index.js
 else
 	echo "compiling"
-	tsc
+	tsc 
 
 	echo "moving to files to build/ directory"
 	# create dir if not exists then copy transpiled files
-	cp -R src/views dist/src/views && cp -R src/public dist/src/
+	ln -sf public/ js/ && ln -sf views/ js/
 fi
