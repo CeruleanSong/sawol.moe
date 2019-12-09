@@ -2,10 +2,10 @@
     "apps": [
         {
             "name": "sawol.moe",
-            "script": "ts-node index.ts",
+            "script": "./index.js",
             "watch": true,
             "ignore_watch":[],
-            "instances": "2",
+            "instances": "1",
             "exec_mode": "cluster",
             "env": {
                 "production": true

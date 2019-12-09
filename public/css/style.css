@@ -6,6 +6,10 @@ html {
 	min-height: 100% !important;
 }
 
+body {
+	background: none !important;
+}
+
 .blur {
 	filter: blur(4px);
 }
