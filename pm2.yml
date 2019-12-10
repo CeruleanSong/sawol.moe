@@ -1,5 +1,5 @@
 apps:
-  - script    : index.js
+  - script    : dist/src/index.js
     name      : emawa.io
     instances : 1
     watch     : true
