@@ -86,18 +86,25 @@ body {
 	font-size: 20px;
 }
 
-.index-l *{
-	text-align: right;
-}
-
-.index-l {
-	text-align: right;
-}
-
 .index-r *{
 	text-align: left;
 }
 
+.index-l *{
+	text-align: right;
+}
+
+@media only screen and (max-width: 768px){
+	.index-l *{
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	.index-r *{
+		text-align: center;
+	}
+}
 /* .diag-bg {
 	position: relative;
 	background: repeating-linear-gradient(
