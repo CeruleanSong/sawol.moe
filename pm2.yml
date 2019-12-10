@@ -1,6 +1,5 @@
 apps:
   - script    : index.js
-    args: index.ts
     name      : emawa.io
     instances : 1
     watch     : true

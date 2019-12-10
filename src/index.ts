@@ -7,7 +7,7 @@ import createError from "http-errors";
 import { CssController, IndexController, ProjectsController, AboutController, PortalController, PortfolioController } from "./routes";
 
 // other
-import config from "./config.json";
+import config from "../config.json";
 
 const app: express.Application = express();
 

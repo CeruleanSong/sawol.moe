@@ -1,7 +1,7 @@
-# build.sh - utlities for building and running kurisubot
+# build.sh - utlities for building and running typescript code
 #
 # ./build.sh build - transpile code, and move to the build/ dir
-# ./build.sh run - run kurisubot
+# ./build.sh run - run typescript code
 #
 
 #if [ "$1" = "build"] # transpile the typescript
@@ -13,12 +13,12 @@
 if [ "$1" = "run" ] # run program
 then
 	# move to bot dir and run bot
-	cd js && node index.js
+	cd dist && node index.js
 else
 	echo "compiling"
-	tsc 
+	tsc
 
 	echo "moving to files to build/ directory"
 	# create dir if not exists then copy transpiled files
-	ln -sf public/ js/ && ln -sf views/ js/
+	cp -R src/views dist/views && cp -R src/public dist/
 fi
