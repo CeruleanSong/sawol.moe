@@ -17,8 +17,8 @@ body {
 .icon-badge {
 	cursor: pointer;
 	vertical-align: middle;
-	height: 100px;
-	width: 250px; 
+	/* height: 100px; */
+	width: 100%; 
 	border-radius: 10px 10px 10px 10px;
 }
 
@@ -44,6 +44,12 @@ body {
 	height: max-content;
 	background-color: #f5e0ff;
 	border-radius: 15px 15px 15px 15px;
+}
+
+@media only screen and (max-width: 768px){
+	.modal {
+		width: 90%;
+	}
 }
 
 .close {
