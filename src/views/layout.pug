@@ -26,10 +26,11 @@ html(class='diag-bg')
 
 			gtag('config', 'G-W1HLPW9SKB');
 
-	body
+	//- body(class="bg-grey-darker")
+	body(class="")
 			
 		div(class='nav-container')
-			a(class='nav-logo', href='/') Sawol.ca
+			a(class='nav-logo', href='/') emawa.io
 			a(class="nav-accordian" id="" href="javascript:(0)")
 			a(class='nav-object', href='/about') About Me
 			a(class='nav-object', href='/projects') Projects
@@ -40,4 +41,18 @@ html(class='diag-bg')
 			block content
 		
 		footer
-			p 모든 웹은 걸작
+			| 모든 웹은 걸작입니다
+			p
+				a(href='https://github.com/CeruleanSong')
+					i(class="fab fa-github fa-2x") 
+				//- a(href='https://bitbucket.org/CeruleanSong/')
+				//- 	i(class="fab fa-bitbucket fa-2x")	
+				//- a(href='https://songmawa.tumblr.com/')
+				//- 	i(class="fab fa-tumblr fa-2x")
+				| 
+				a(href='https://twitter.com/songmawa')
+					i(class="fab fa-twitter fa-2x")
+				//- a(href='https://twitter.com/songmawa')
+				//- 	i(class="fab fa-discord fa-2x")
+				//- a(href='https://twitter.com/songmawa')
+				//- 	i(class="fab fa-discord fa-2x")

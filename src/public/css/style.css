@@ -42,7 +42,8 @@ body {
 	left: 0;
 	width: 40%;
 	height: max-content;
-	background-color: #f5e0ff;
+	background-color: #fff;
+	/* background-color: #f5e0ff;  */
 	border-radius: 15px 15px 15px 15px;
 }
 
@@ -80,10 +81,10 @@ body {
 }
 
 .mast-img {
+	margin: 20px 0px 0px;
 	border-radius: 100%;
-	max-width: 80%;
-	max-height: 80%;
-
+	max-width: 60%;
+	max-height: 50vh;
 }
 
 .mast-img-2 {
