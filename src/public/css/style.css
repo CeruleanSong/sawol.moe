@@ -42,9 +42,9 @@ body {
 	left: 0;
 	width: 40%;
 	height: max-content;
-	background-color: #fff;
+	/* background-color: #fff; */
 	/* background-color: #f5e0ff;  */
-	border-radius: 15px 15px 15px 15px;
+	/* border-radius: 15px 15px 15px 15px; */
 }
 
 @media only screen and (max-width: 768px){

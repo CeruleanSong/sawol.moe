@@ -3,6 +3,9 @@ extends layout
 block content
 	
 	div(class='content center text-center')
+
+		//****************** PERSONAL PROJECTS
+
 		div(class="section")
 			//- h3 Completed Projects
 				//- i(class="fas fa-check-square fa-lg")
@@ -39,13 +42,15 @@ block content
 					img(class="icon-badge", id='sakura',
 						src="/img/badges/sakura-badge-small.png")
 					h6 sakura
-
+	
+		//****************** SCHOOL PROJECTS
+	
 		div(class="section")
 			h3 School Assignments
 			p Some of my school assignments
 			div(class="row")
 				div(class="card shadow")
-					img(src="/img/screen-shots/chess/chess-shot-4.png", alt="picture of me")
+					img(src="/img/screen-shots/chess/chess-shot-5.png")
 					h1 Software Engineering: #[span(class="color-electric-indigo") Chess]
 					p.
 						A semester long project. A full graphical chess game developed in a group setting.A Robust application fitted with 2 player local & ai capabilities, andvarying settings & tools.
@@ -53,7 +58,7 @@ block content
 						button(class="outline") Download
 
 				div(class="card shadow")
-					img(src="/img/screen-shots/paint/paint-shot-1.png", alt="picture of me")
+					img(src="/img/screen-shots/paint/paint-shot-1.png")
 					h1 Algorithm Analysis: #[span(class="color-electric-indigo") Paint & Flood Fill Algorithm]
 					p.
 						Small graphical paint application for a self-guided final project. Utilizes C++ & the OpenGL/FreeGLUT libraries. Inteded for a full demonstration of the flood (or bucket) fill & border fill algorithms.
@@ -62,20 +67,21 @@ block content
 
 			div(class="row")
 				div(class="card shadow")
-					img(src="/img/screen-shots/mine/mine-shot-2.png", alt="picture of me")
+					img(src="/img/screen-shots/mine/mine-shot-2.png")
 					h1 Web Application: #[span(class="color-electric-indigo") Mine Sweeper]
 					p.
 						Small mine sweeper application.
-					a(href='startupedmonton.com/member-alumni-companies')
+					a(href='http://cs.kingsu.ca/~emawa/cmpt-304/Assignment02/')
 						button(class="outline") Live Demo
 
 				div(class="card shadow")
-					img(src="/img/screen-shots/bible/bible-shot-2.png", alt="picture of me")
+					img(src="/img/screen-shots/bible/bible-shot-2.png")
 					h1 Web Application: #[span(class="color-electric-indigo") Bible Word Query]
 					p.
 						Small tool for finding the location of words in a bible. Uses SQL & PHP.
-					a(href='http://cs.kingsu.ca/~emawa/cmpt-304/Assignment04/display_query.php')
+					a(href='http://cs.kingsu.ca/~emawa/cmpt-304/Assignment04/')
 						button(class="outline") Live Demo
+
 	//////////////////////////////////////////////////
 	//												//
 	//					Modals						//
@@ -87,105 +93,70 @@ block content
 
 		// ashleycss
 		div(class='modal', id='ashley-modal')
-			div(class="row")
-				div(class="col")
-					h5 ashleycss
-					img(class="icon-badge", src="/img/badges/ashleycss-badge-small.png")
-			div(class="row")
-				div(class="col")
-					p A lightweight & modern css framework. Conformant with CSS3 & HTML5. Focuses on clean design and visiblity. #[br] #[small (This website uses it 🤩)]
-					a(href='https://github.com/CeruleanSong/ashleycss')
-						button(class="") Git Repo
+			div(class='card border-rounder', id='ashley-modal')
+				img(src="/img/badges/ashleycss-badge-small.png")
+				h5 ashleycss
+				p A lightweight & modern css framework. Conformant with CSS3 & HTML5. Focuses on clean design and visiblity. #[br] #[small (This website uses it 🤩)]
+					br
+					a(href='https://github.com/CeruleanSong/ashleycss') #[button(class="") Git Repo]
 					| 
-					a(href='https://github.com/CeruleanSong/ashleycss/releases')
-						button(class="outline") Download
+					a(href='https://github.com/CeruleanSong/ashleycss/releases') #[button(class="outline") Download]
 					| 
-					a(href='https://css.emawa.io')
-						button(class="outline") Live Demo
-			div(class="row")
-				div(class="col")
-					div(class='center close') close
+					a(href='https://css.emawa.io') #[button(class="outline") Live Demo]
+				div(class='center close') close
 
 		// gobox
 		div(class='modal', id='gobox-modal')
-			div(class="row")
-				div(class="col")
-					h5 gobox
-					img(class="icon-badge", src="/img/badges/gobox-badge-small.png")
-			div(class="row")
-				div(class="col")
-					p A web application for general-purpose file sharing.
-					a(href='https://github.com/CeruleanSong/gobox')
-						button(class="") Git Repo
+			div(class='card border-rounder')
+				img(src="/img/badges/gobox-badge-small.png")
+				h5 gobox
+				p A web application for general-purpose file sharing. 
+					br
+					a(href='https://github.com/CeruleanSong/gobox') #[button(class="") Git Repo]
 					| 
-					a(href='https://github.com/CeruleanSong/gobox/releases')
-						button(class="outline") Download
+					a(href='https://github.com/CeruleanSong/gobox/releases') #[button(class="outline") Download]
 					| 
-					a(href='https://gobox.emawa.io')
-						button(class="outline") Live Demo
-			div(class="row")
-				div(class="col")
-					div(class='center close') close
+					a(href='https://gobox.emawa.io') #[button(class="outline") Live Demo]
+				div(class='center close') close
 
 		// ashleybot
 		div(class='modal', id='ashleybot-modal')
-			div(class="row")
-				div(class="col")
-					h5 ashleybot
-					img(class="icon-badge", src="/img/badges/ashleybot-badge-small.png")
-			div(class="row")
-				div(class="col")
-					p A Discord music bot made with NodeJS & IrisJs
-					a(href='https://github.com/CeruleanSong/ashleybot')
-						button(class="") Git Repo
+			div(class='card border-rounder')
+				img(src="/img/badges/ashleybot-badge-small.png")
+				h5 ashleybot
+				p A Discord music bot made with NodeJS & IrisJs
+					br
+					a(href='https://github.com/CeruleanSong/ashleybot') #[button(class="") Git Repo]
 					| 
-					a(href='https://github.com/CeruleanSong/ashleybot/releases')
-						button(class="outline") Download
+					a(href='https://github.com/CeruleanSong/ashleybot/releases') #[button(class="outline") Download]
 					//- | 
-					//- a(href='https://bitbucket.org/CeruleanSong/ashleybot/src/master/')
-					//- 	button(class="outline") Demo
-			div(class="row")
-				div(class="col")
-					div(class='center close') close
+					//- a(href='https://ashleybot.emawa.io') #[button(class="outline") Live Demo]
+				div(class='center close') close
 
 		// kurisu
 		div(class='modal', id='kurisu-modal')
-			div(class="row")
-				div(class="col")
-					h5 kurisu
-					img(class="icon-badge", src="/img/badges/kurisu-badge-small.png")
-			div(class="row")
-				div(class="col")
-					p An all purpose discord bot that I help develop on. Created by Tromo checkout his website #[a(href='https://tro.moe/') here].
-					a(href='https://github.com/Tromodolo/Kurisu')
-						button(class="") Git Repo
+			div(class='card border-rounder')
+				img(src="/img/badges/kurisu-badge-small.png")
+				h5 kurisu
+				p An all purpose discord bot that I help develop on. Created by Tromo checkout his website #[a(href='https://tro.moe/') here].
+					br
+					a(href='https://github.com/Tromodolo/Kurisu') #[button(class="") Git Repo]
 					| 
-					a(href='https://github.com/Tromodolo/Kurisu/releases')
-						button(class="outline") Download
+					a(href='https://github.com/Tromodolo/Kurisu/releases') #[button(class="outline") Download]
 					//- | 
-					//- a(href='https://bitbucket.org/CeruleanSong/ashleycss/src/master/')
-					//- 	button(class="outline") Demo
-			div(class="row")
-				div(class="col")
-					div(class='center close') close
+					//- a(href='https://kurisu.emawa.io') #[button(class="outline") Live Demo]
+				div(class='center close') close
 
 		// sakura
 		div(class='modal', id='sakura-modal')
-			div(class="row")
-				div(class="col")
-					h5 sakura
-					img(class="icon-badge", src="/img/badges/sakura-badge-small.png")
-			div(class="row")
-				div(class="col")
-					p An android manga reader. #[strong In super Early stages.]
-					a(href='https://github.com/CeruleanSong/sakura')
-						button(class="") Git Repo
+			div(class='card border-rounder')
+				img(src="/img/badges/sakura-badge-small.png")
+				h5 sakura
+				p An android manga reader. #[strong In super Early stages.]
+					br
+					a(href='https://github.com/CeruleanSong/sakura') #[button(class="") Git Repo]
 					| 
-					a(href='https://github.com/CeruleanSong/sakura/releases')
-						button(class="outline") Download
+					a(href='https://github.com/CeruleanSong/sakura/releases') #[button(class="outline") Download]
 					//- | 
-					//- a(href='https://bitbucket.org/CeruleanSong/ashleybot/src/master/')
-					//- 	button(class="outline") Demo
-			div(class="row")
-				div(class="col")
-					div(class='center close') close
+					//- a(href='https://sakura.emawa.io') #[button(class="outline") Live Demo]
+				div(class='center close') close
