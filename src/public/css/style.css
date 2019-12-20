@@ -3,11 +3,24 @@ html {
 	
 	position: relative;
 	height: auto;
-	min-height: 100% !important;
+	min-height: 100vh !important;
 }
 
 body {
+	min-height: 100vh !important;
 	background: none !important;
+	/* padding-bottom: 50rem; */
+}
+
+footer {
+	margin: 0 auto;
+	bottom: 0px;
+	position: absolute;
+}
+
+#main-c {
+	height: 100%;
+	padding-bottom: 6rem;
 }
 
 .blur {
@@ -83,7 +96,7 @@ body {
 .mast-img {
 	margin: 20px 0px 0px;
 	border-radius: 100%;
-	max-width: 60%;
+	max-width: 50%;
 	max-height: 50vh;
 }
 
@@ -97,7 +110,7 @@ body {
 }
 
 .mast-text a{
-	font-size: 20px;
+	font-size: 16px;
 }
 
 .index-r *{
