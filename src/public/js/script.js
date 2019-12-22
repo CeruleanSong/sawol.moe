@@ -1,6 +1,7 @@
 $("document").ready(function(){
 	$(".close").on('click', (e) => {
-		$(e.target).parent().removeClass("is-active");
+		$(e.target).parent().parent().removeClass("is-active");
+		// $(e.target).parent().removeClass("is-active");
 		$(".screen").removeClass("is-active");
 		$('.content').removeClass("blur");
 		$('.nav-container').removeClass('blur');

@@ -1,15 +1,14 @@
-html {
+html, body {
 	/* background-color: #ffb7c5; */
 	
 	position: relative;
+	height: 100%;
+	margin: 0;
+
+	position: relative;
 	height: auto;
 	min-height: 100vh !important;
-}
-
-body {
-	min-height: 100vh !important;
 	background: none !important;
-	/* padding-bottom: 50rem; */
 }
 
 footer {
@@ -23,6 +22,16 @@ footer {
 	padding-bottom: 6rem;
 }
 
+.box {
+	display: flex;
+	flex-flow: column;
+	height: 100%;
+}
+
+.box .row.stuff {
+	flex: 1 1 auto;
+}
+
 .blur {
 	filter: blur(4px);
 }
@@ -31,14 +40,14 @@ footer {
 	cursor: pointer;
 	vertical-align: middle;
 	/* height: 100px; */
-	width: 100%; 
+	width: 100%;
 	border-radius: 10px 10px 10px 10px;
 }
 
 .icon-p {
 	height: 300px;
 	border: 5px #ea9329 solid;
-    border-radius: 100%;
+	border-radius: 100%;
 }
 
 .modal {
@@ -77,32 +86,42 @@ footer {
 	display: none;
 
 	position:fixed;
-    padding:0;
-    margin:0;
 
-    top:0;
-    left:0;
+	padding:0;
+	margin:0;
 
-    width: 100%;
-    height: 100%;
+	top:0;
+	left:0;
+
+	width: 100%;
+	height: 100%;
+
 	background:rgba(0, 0, 0, 0.6);
+
+	z-index: 10;
 }
 
 .is-active {
+	z-index: 10;
+
 	visibility: visible;
-	display: initial;
+	display: flex;
 }
 
 .mast-img {
-	margin: 20px 0px 0px;
+	right: 0px;
+	margin: 20px 1px 0px;
 	border-radius: 100%;
-	max-width: 50%;
-	max-height: 50vh;
+	max-width: 30vh;
+	max-height: 60vh;
 }
 
 .mast-img-2 {
+	right: 0px;
+	margin: 20px 2px 0px;
 	border-radius: 100%;
-	width: 250px;
+	max-width: 15%;
+	max-height: 40%;
 }
 
 .mast-text {
