@@ -51,19 +51,26 @@ footer {
 }
 
 .modal {
+	align-items: center;
+	justify-content: center;
+
 	filter: none;
 	visibility: hidden;
 
 	display: none;
 
 	position: fixed;
+
 	margin: auto;
-	top: 0;
+
+	top: 20%;
+	bottom: 20%;
 	right: 0;
-	bottom: 10%;
 	left: 0;
+	
 	width: 40%;
 	height: max-content;
+
 	/* background-color: #fff; */
 	/* background-color: #f5e0ff;  */
 	/* border-radius: 15px 15px 15px 15px; */
@@ -73,6 +80,10 @@ footer {
 	.modal {
 		width: 90%;
 	}
+}
+
+.card p strong, .card p a {
+	font-size: .8rem !important;
 }
 
 .close {
