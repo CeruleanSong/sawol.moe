@@ -2,7 +2,7 @@ extends layout
 
 block content
 	
-	div(class="section")
+	div(class="section container")
 		div(class='row')
 			div(class='col index-l')
 				//- img(src="/img/portrait-o/songoku.jpg", alt="picture of me" class='mast-img')
@@ -16,15 +16,23 @@ block content
 				//- 	Student/Software Developer
 				p.
 					B.ASc Computer Science
-				p.
-					#[a(href="mailto:elias@emawa.io") elias@emawa.io]
+				p #[a(href="mailto:elias@emawa.io") elias@emawa.io]
 				p
-					a(href='/file/elias-mawa-resume.pdf')
+					a(href='https://github.com/CeruleanSong')
+						i(class="fab fa-github fa-2x")
+					| 
+					a(href='https://www.linkedin.com/in/emawa/')
+						i(class="fab fa-linkedin fa-2x") 
+					| 
+					a(href='https://codepen.io/CeruleanSong')
+						i(class="fab fa-codepen fa-2x") 
+					p
+						a(href='/file/2020-JAN-V1.pdf')
 						button(class="outline") Resume #[i(class="fas fa-file-download")]
 
 			div(class='col index-r')
 				p.
-					Elias is a nerd & self proclaimed full stack software developer.
+					Elias as is a web & mobile software developer. He dabbles in both frontend and backend development.
 
 				//- small.
 				//- 	~ Ashley in smash please ~

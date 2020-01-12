@@ -68,7 +68,7 @@ footer {
 	right: 0;
 	left: 0;
 	
-	width: 40%;
+	width: 30%;
 	height: max-content;
 
 	/* background-color: #fff; */
@@ -82,10 +82,12 @@ footer {
 	}
 }
 
-.card p strong, .card p a {
-	font-size: .8rem !important;
+.card, .card p {
+	font-size: 1rem !important;
+	background: white !important;
+	color: black;
+	text-align: center !important; 
 }
-
 .close {
 	cursor: pointer;
 }
