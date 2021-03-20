@@ -1,0 +1,15 @@
+{
+  "name": "emawa.io",
+  "version": "1.0.0",
+  "description": "personal portfolio",
+  "repository": "git@github.com:songmawa/emawa.io.git",
+  "author": "Elias Mawa <elias@emawa.io>",
+  "scripts": {
+    "build": "sass public/"
+  },
+  "license": "GPLv3",
+  "private": true,
+  "devDependencies": {
+    "sass": "^1.32.8"
+  }
+}
