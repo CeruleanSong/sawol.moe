@@ -46,7 +46,6 @@ func main() {
 
 	/** template file serve */
 	router.HandleFunc("/", IndexHandler)
-	router.HandleFunc("/about", AboutHandler)
 	router.HandleFunc("/projects", ProjectHandler)
 	http.Handle("/", router)
 
