@@ -1,0 +1,82 @@
+{{define "page_index"}}
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		{{ template "partial_head" }}
+	</head>
+
+	<body>
+		{{ template "partial_navigation" }}
+		<div class='container'>
+			<h1 class='title'>
+				Elias Mawa
+			</h1>
+			<div class='body'>
+				<h2 class='header'>About</h2>
+				<p>
+					Hello! I'm Elias as a developer intrested in both web and mobile application development.
+					I love experimenting and i've dabbled in both frontend and backend development.
+					I love to style and create beautiful websites,
+					though I much more prefer the ease and structure of creating backend server.
+					I'm always looking for new ways to expand and develop my knowledge in computer science!
+				</p>
+				<p>
+					Other than development I love to play rugby (repping the wingers and flyhalfs), bike through parks and jog.
+					I also enjoy painting and crochet as a hobby in my free time.
+				</p>
+				<h2 class='header'>Experience</h2>
+				<p>
+					<h3>Typescript/Javascript</h3>
+					<ul>
+						<li>
+							Currenctly most utilised language (heavy experience with typescript).
+						</li>
+						<li>
+							Eperince creating chatbots (discord) and web apps.
+						</li>
+						<li>
+							Experience with webframeworks, api's and mobile development (react).
+						</li>
+						<li>
+							Actively developing an open source manga reader for mobile playform.
+						</li>
+					</ul>
+					<h3>Ruby</h3>
+					<ul>
+						<li>
+							Experience with webframeworks and api's.
+						</li>
+						<li>
+							Actively developing an open source API to browse and download manga.
+						</li>
+					</ul>
+					<h3>C/C++</h3>
+					<ul>
+						<li>
+							Experience creating small scripts & libraries for personal use
+							(commandline tool to download and organsie manga).
+						</li>
+						<li>
+							Usage with microcontrollers and various sensors/electronics.
+						</li>
+						<li>
+							Currently developing a game engine library for 2D game development.
+						</li>
+					</ul>
+				<p/>
+			</div>
+			<div>
+				<div class="gap-1">
+					<a name="github link" href="https://github.com/songmawa" class="icon-label">
+						<img src="/public/img/github.svg" aria-label="github icon" class="icon" />
+					</a>
+					<a name="linkedin link" href="https://www.linkedin.com/in/emawa/" class="icon-label">
+						<img src="/public/img/linkedin.svg" aria-label="linkedin icon" class="icon" />
+					</a>
+				</div>
+				<a href="/public/resume/elias_resume.pdf"> download resume </a>
+			</div>
+		</div>
+	</body>
+</html>
+{{ end }}

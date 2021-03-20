@@ -1,0 +1,17 @@
+{{define "partial_navigation"}}
+<div class="nav-bar">
+	<!-- <span>
+		emawa.io
+	</span> -->
+	<span>
+		<a href="/">
+			about
+		</a>
+	</span>
+	<span>
+		<a href="/projects">
+			projects
+		</a>
+	</span>
+</div>
+{{ end }}
