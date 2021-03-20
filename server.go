@@ -10,7 +10,7 @@ import (
 	"github.com/gorilla/mux"
 )
 
-const port = 3636
+const port = 8080
 const DEVELOPMENT = true
 
 var templates = template.Must(template.ParseGlob("view/*"))

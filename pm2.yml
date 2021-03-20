@@ -1,5 +1,5 @@
 apps:
-  - script    : dist/src/index.js
+  - script    : go run server.go
     name      : emawa.io
     instances : 1
     watch     : true
