@@ -1,0 +1,10 @@
+{
+	"short_name": "emawa.io",
+	"name": "Elias Mawa personal portfolio.",
+	"description": "Elias Mawa personal portfolio.",
+	"start_url": "/",
+	"background_color": "#fff",
+	"display": "standalone",
+	"scope": "/",
+	"theme_color": "#fff"
+	}
