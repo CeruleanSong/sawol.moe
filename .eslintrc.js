@@ -1,38 +1,53 @@
 module.exports = {
-	parser: `@typescript-eslint/parser`,
-	extends: [
-	  "plugin:@typescript-eslint/recommended",
-	  "plugin:prettier/recommended",
-	  "prettier/@typescript-eslint",
+	'parser': '@typescript-eslint/parser',
+	'plugins': [ '@typescript-eslint' ],
+	'extends': [
+		'eslint:recommended',
+		'plugin:@typescript-eslint/recommended',
+		'prettier'
 	],
-	plugins: ["@typescript-eslint", "prettier"],
-	parserOptions: {
-	  ecmaVersion: 2018, // Allows for the parsing of modern ECMAScript features
-	  sourceType: "module", // Allows for the use of imports
+	'env': {
+		'es6': true,
+		'browser': true,
+		'node': true
 	},
-	env: {
-	  browser: true,
-	  node: true,
+	'settings': {
+		'react': {
+			'version': 'detect'
+		}
 	},
-	rules: {
-	  quotes: "off",
-	  "@typescript-eslint/quotes": [
-		2,
-		"backtick",
-		{
-		  avoidEscape: true,
-		},
-	  ],
-	  indent: ["error", 4, { SwitchCase: 1 }],
-	  "prettier/prettier": [
-		"error",
-		{
-		  trailingComma: "es5",
-		  semi: false,
-		  singleQuote: false,
-		  printWidth: 120,
-		},
-	  ],
-	},
-  }
-  
+	'rules': {
+		'indent': [ 'error', 'tab' ],
+		'no-tabs': [ 'error', { 'allowIndentationTabs': true } ],
+		'array-bracket-spacing': [ 'error', 'always' ],
+		'object-curly-spacing': [ 'error', 'always' ],
+		'quotes': [ 'error', 'single' ],
+		'comma-dangle': [ 'error', 'never' ],
+		'semi': [ 'error', 'always' ],
+		'sort-imports': [ 'error', {
+			'ignoreCase': false,
+			'ignoreDeclarationSort': false,
+			'ignoreMemberSort': false,
+			'memberSyntaxSortOrder': [ 'all', 'single', 'multiple', 'none' ],
+			'allowSeparatedGroups': true
+		} ],
+		'@typescript-eslint/no-empty-interface': 'off',
+		'@typescript-eslint/explicit-module-boundary-types': 'off',
+		'@typescript-eslint/member-delimiter-style': 'error',
+		'@typescript-eslint/no-explicit-any': 'off',
+		'@typescript-eslint/no-var-requires': 'error',
+		'@typescript-eslint/no-use-before-define': 'error',
+		'@typescript-eslint/no-unused-vars': [
+			'error',
+			{
+				'argsIgnorePattern': '^_'
+			}
+		],
+		'no-console': [
+			'error',
+			{
+				'allow': [ 'warn', 'error' ]
+			}
+		]
+	}
+};
