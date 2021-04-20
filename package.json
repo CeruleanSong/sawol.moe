@@ -1,16 +1,27 @@
 {
   "name": "emawa.io",
   "version": "1.0.0",
-  "description": "personal portfolio",
-  "repository": "git@github.com:songmawa/emawa.io.git",
-  "author": "Elias Mawa <elias@emawa.io>",
-  "scripts": {
-    "build": "sass public/ && tsc public/script.ts"
-  },
-  "license": "GPLv3",
   "private": true,
+  "description": "emawa.io",
+  "author": "Elias Mawa",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^3.3.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
   "devDependencies": {
-    "sass": "^1.32.8",
-    "typescript": "^4.2.3"
+    "@typescript-eslint/parser": "^4.22.0",
+    "eslint": "^7.24.0",
+    "typescript-eslint": "^0.0.1-alpha.0"
   }
 }
