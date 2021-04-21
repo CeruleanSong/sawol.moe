@@ -13,7 +13,7 @@ interface Props { }
 const Index: NextPage<Props> = () => {
 	const seo: NextSeoProps = { };
 
-	const [ page, usePage ] = useState('about');
+	const [ page, usePage ] = useState('projects');
 
 	const setPage = (name) => {
 		usePage(name);

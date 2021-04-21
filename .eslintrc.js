@@ -3,12 +3,14 @@ module.exports = {
 	'plugins': [ '@typescript-eslint' ],
 	'extends': [
 		'eslint:recommended',
+		'plugin:react/recommended',
 		'plugin:@typescript-eslint/recommended',
 		'prettier'
 	],
 	'env': {
 		'es6': true,
 		'browser': true,
+		'jest': true,
 		'node': true
 	},
 	'settings': {
@@ -17,6 +19,10 @@ module.exports = {
 		}
 	},
 	'rules': {
+		'react/react-in-jsx-scope': 'off',
+		'react/jsx-filename-extension': [ 'error', { 'extensions': [ '.ts', '.tsx' ] } ],
+		'react/display-name': 'error',
+		'react/prop-types': 'error',
 		'indent': [ 'error', 'tab' ],
 		'no-tabs': [ 'error', { 'allowIndentationTabs': true } ],
 		'array-bracket-spacing': [ 'error', 'always' ],
