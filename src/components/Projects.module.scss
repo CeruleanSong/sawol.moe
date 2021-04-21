@@ -1,0 +1,11 @@
+.icon {
+	max-height: 6rem;
+	max-width: 6rem;
+	margin-right: 0.5rem;
+}
+
+.itemList {
+	&> div {
+		margin: 0.5rem;
+	}
+}

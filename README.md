@@ -1,54 +1,66 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby minimal starter
-</h1>
+# **pndo.me [webapp]**
 
-## 🚀 Quick start
+**a clean, simple and private file hosting service.**
 
-1.  **Create a Gatsby site.**
+<div align="center">
+  
+  <img src="res/repo/banner.svg" height='300px'>
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+  [![Build Status](https://travis-ci.com/songmawa/pndo.me-server.svg?branch=master)](https://travis-ci.com/songmawa/pndo.me-web)
+  [![GitHub Issues](https://img.shields.io/github/issues/songmawa/pndo.me-server.svg)](https://github.com/songmawa/pndo.me-web/issues)
+  [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/songmawa/pndo.me-server.svg)](https://github.com/songmawa/pndo.me-web/pulls)
+  [![GitHub License](https://img.shields.io/github/license/songmawa/pndo.me-web)](/LICENSE)
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+</div>
 
-2.  **Start developing.**
+## Getting Started
 
-    Navigate into your new site’s directory and start it up.
+### Installing
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+**create and edit the config file in res/config.json**
 
-3.  **Open the code and start customizing!**
+```
+vim src/res/config.json
+```
 
-    Your site is now running at http://localhost:8000!
 
-    Edit `src/pages/index.js` to see your site update in real-time!
+### Compiling
 
-4.  **Learn more**
+**transile the source into javascript**
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+```
+yarn build
+```
 
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+### Running
 
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+**run the program**
 
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+```
+yarn start
+```
 
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+## Deploying
 
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+**TODO**
 
-## 🚀 Quick start (Gatsby Cloud)
+## Documentation
 
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
+Software specifications & design documents can be found in the [wiki](/wiki).
 
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+## See Also
+
+- **pndo.me-server - https://github.com/songmawa/pndo.me-server**
+- **pndo.me-app - https://github.com/songmawa/pndo.me-app**
+
+## Contributing
+
+Please see [CONTRIBUTING.md](CONTRIBUTING.md) for a in depth view.
+
+## Credits
+
+Please see [CREDITS.md](CREDITS.md) for a in depth view.
+
+## License
+
+This project is licensed under the **GPL-3.0** License - see the [LICENSE.md](LICENSE.md) file for details.
