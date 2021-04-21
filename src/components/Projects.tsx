@@ -178,7 +178,7 @@ export const Projects: NextPage<Props> = () => {
 							</div>
 							<div>
 								<div>
-									<strong>gobox</strong>
+									<strong>kurisu</strong>
 								</div>
 								<Link href='https://github.com/Tromodolo/Kurisu'>
 									<a className={style.icon}>
