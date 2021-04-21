@@ -1,0 +1,41 @@
+[
+	{
+		"icon": "/icons/gobox.png",
+		"title": "gobox",
+		"website": "https://gobox.dev",
+		"repo": "https://github.com/songmawa/react-stag",
+		"desc": "Quick file upload and sharing service (Predecessor to pndome).",
+		"tags": [
+			"Golang",
+			"JavaScript"
+		]
+	},
+	{
+		"icon": "/icons/kurisu.png",
+		"title": "kurisu",
+		"repo": "https://github.com/Tromodolo/Kurisu",
+		"desc": "General purpose discord chatbot.",
+		"tags": [
+			"TypeScript"
+		]
+	},
+	{
+		"title": "sorbet",
+		"repo": "https://github.com/songmawa/sorbet",
+		"desc": "Very mini game engine with a physics engine & and entity component system.",
+		"tags": [
+			"C",
+			"OpenGL",
+			"OpenAL"
+		]
+	},
+	{
+		"title": "paint32",
+		"repo": "https://github.com/songmawa/paint32",
+		"desc": "Simple paint appication with pen and bucket tool. Used to demonstrate floodfill (Algorithm analysis class)",
+		"tags": [
+			"C++",
+			"OpenGL"
+		]
+	}
+]

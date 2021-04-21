@@ -1,0 +1,39 @@
+[
+	{
+		"icon": "/icons/stag.png",
+		"title": "stag",
+		"website": "https://stag.dev",
+		"repo": "https://github.com/songmawa/stag",
+		"desc": "Modern and minimalist CSS framework and ReactJS component library. Based on flexbox and wai-aria compliant",
+		"tags": [
+			"SASS",
+			"SCSS",
+			"TypeScript",
+			"ReactJS"
+		]
+	},
+	{
+		"icon": "/icons/iizume.png",
+		"title": "iizume (mobile app & api)",
+		"website": "https://iizu.me",
+		"repo": "https://github.com/songmawa/iizume",
+		"desc": "Free and open source mobile application and API for browsing, downloading and reading manga.",
+		"tags": [
+			"React Native",
+			"TypeScript",
+			"KoaJS/ExpressJS"
+		]
+	},
+	{
+		"icon": "/icons/pndome.png",
+		"title": "pndome (web app & api)",
+		"website": "https://pndo.me",
+		"repo": "https://github.com/songmawa/pndo.me-server",
+		"desc": "Clean, simple and private file hosting service.",
+		"tags": [
+			"ReactJS",
+			"TypeScript",
+			"KoaJS/ExpressJS"
+		]
+	}
+]

@@ -4,6 +4,8 @@ import React from 'react';
 
 import { Head } from './Head';
 
+import style from './Layout.module.scss';
+
 interface Props { 
 	seo?: NextSeoProps;
 	children: React.ReactNode;
@@ -11,8 +13,8 @@ interface Props {
 
 export const Layout: React.FunctionComponent<Props> = (props: Props) => {
 	return(
-		<div className='size-full center' style={{ marginTop: '25vh' }}>
-			{/* <div className='nav-container'>
+		<div className={style.container}>
+			<div className='nav-container'>
 				<Link href='/'>
 					<a className='nav-title'>
 						Home
@@ -23,7 +25,7 @@ export const Layout: React.FunctionComponent<Props> = (props: Props) => {
 						Projects
 					</a>
 				</Link>
-			</div> */}
+			</div>
 			<Head seo={props.seo} />
 			{props.children}
 		</div>
