@@ -19,6 +19,7 @@
 		"repo": "https://github.com/songmawa/iizume",
 		"desc": "Free and open source mobile application and API for browsing, downloading and reading manga.",
 		"tags": [
+			"Ruby",
 			"React Native",
 			"TypeScript",
 			"KoaJS/ExpressJS"
