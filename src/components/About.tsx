@@ -43,7 +43,7 @@ export const About: NextPage<Props> = () => {
 					I have experience in frontend, backend and mobile application development.
 					</p>
 					<p>
-					Other than developing I also have many hobbies that I love. These include rugby 🏉 (repping flyhalfs and wingers), Jogging 👟, Painting 🎨 and Crochet 🪡.
+					Other than developing I also have many hobbies that I love. These include rugby 🏉 (repping flyhalfs and wingers), Jogging 👟, Painting 🎨 and Crochet 🧶.
 					</p>
 				</section>
 			</section>
