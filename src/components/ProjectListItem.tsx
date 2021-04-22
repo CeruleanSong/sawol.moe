@@ -14,7 +14,7 @@ interface Props {
 	tags: string[];
 }
 
-export const ProjectListItem: NextPage<Props> = (props) => {
+export const ProjectListItem: NextPage<Props> = (props: Props) => {
 	return(
 		<div>
 			<div className='direction-horizontal flex'>
@@ -49,9 +49,9 @@ export const ProjectListItem: NextPage<Props> = (props) => {
 						{props.desc}
 					</div>
 					{
-						props.tags.map((value) => {
+						props.tags.map((value, index) => {
 							return (
-								<span className='badge badge-blue'>{value}</span>
+								<span key={index} className='badge badge-blue'>{value}</span>
 							);
 						})
 					}

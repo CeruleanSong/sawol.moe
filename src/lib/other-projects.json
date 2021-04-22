@@ -13,8 +13,9 @@
 	{
 		"icon": "/icons/kurisu.png",
 		"title": "kurisu",
+		"website": "https://tro.moe",
 		"repo": "https://github.com/Tromodolo/Kurisu",
-		"desc": "General purpose discord chatbot.",
+		"desc": "General purpose discord chatbot. Made by the amazing Filip Ekström ✨.",
 		"tags": [
 			"TypeScript"
 		]
