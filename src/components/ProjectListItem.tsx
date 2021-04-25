@@ -20,7 +20,7 @@ export const ProjectListItem: NextPage<Props> = (props: Props) => {
 			<div className='direction-horizontal flex'>
 				{
 					props.icon ?
-						<div className='direction-vertical flex'>
+						<div className={style.iconContainer}>
 							<img src={props.icon} className={style.icon}></img>
 						</div> :
 						null

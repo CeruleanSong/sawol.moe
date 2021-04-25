@@ -1,7 +1,14 @@
 .icon {
+	// max-height: 6rem;
+	width: 6rem;
+}
+
+.iconContainer {
+	display: flex;
+	flex-direction: row;
+	margin-right: 1rem;
 	max-height: 6rem;
 	max-width: 6rem;
-	margin-right: 0.5rem;
 }
 
 .itemList {
