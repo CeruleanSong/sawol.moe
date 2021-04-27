@@ -4,7 +4,7 @@
 		"title": "gobox",
 		"website": "https://gobox.dev",
 		"repo": "https://github.com/songmawa/react-stag",
-		"desc": "Quick file upload and sharing service (Predecessor to pndome).",
+		"desc": "Quick file upload and sharing service (predecessor to pndome).",
 		"tags": [
 			"Golang",
 			"JavaScript"
@@ -23,7 +23,7 @@
 	{
 		"title": "sorbet",
 		"repo": "https://github.com/songmawa/sorbet",
-		"desc": "Very mini game engine with a physics engine & and entity component system.",
+		"desc": "Very mini game engine with a built in physics engine & and entity component system.",
 		"tags": [
 			"C",
 			"OpenGL",
@@ -33,7 +33,7 @@
 	{
 		"title": "paint32",
 		"repo": "https://github.com/songmawa/paint32",
-		"desc": "Simple paint appication with pen and bucket tool. Used to demonstrate floodfill (Algorithm analysis class)",
+		"desc": "Simple paint application with pen and bucket tool. Used to demonstrate floodfill (Algorithm analysis class)",
 		"tags": [
 			"C++",
 			"OpenGL"

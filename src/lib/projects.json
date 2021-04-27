@@ -4,7 +4,7 @@
 		"title": "stag",
 		"website": "https://stag.dev",
 		"repo": "https://github.com/songmawa/stag",
-		"desc": "Modern and minimalist CSS framework and ReactJS component library. Based on flexbox and wai-aria compliant",
+		"desc": "Modern and minimalist CSS framework and ReactJS component library. wai-aria compliant and based on flexbox.",
 		"tags": [
 			"SASS",
 			"SCSS",
@@ -30,7 +30,7 @@
 		"title": "pndome (web app & api)",
 		"website": "https://pndo.me",
 		"repo": "https://github.com/songmawa/pndo.me-server",
-		"desc": "Clean, simple and private file hosting service.",
+		"desc": "Clean, simple and private file hosting service (successor to gobox).",
 		"tags": [
 			"ReactJS",
 			"TypeScript",
