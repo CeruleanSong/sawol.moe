@@ -16,7 +16,7 @@ export const About: NextPage<Props> = () => {
 					<h1>Elias Mawa</h1>
 				</Link>
 				<section>
-					<Link href='https://github.com/songmawa'>
+					<Link href='https://github.com/ottxrgxist'>
 						<a className={style.icon}>
 							<FiGithub />
 						Github
@@ -37,28 +37,31 @@ export const About: NextPage<Props> = () => {
 				</section>
 				<section>
 					<p>
-					I am Elias Mawa a developer from Edmonton, Alberta.
+					Hello I am Elias Mawa, a developer from Edmonton, Alberta.
 					</p>
 					<p>
-					I have experience in frontend, backend and mobile application development.
+					I have experience building web and mobile applications. I also have experince building backends and RESFUL API's.
 					</p>
 					<p>
-					Other than developing I also have many hobbies that I love. These include rugby 🏉 (repping flyhalfs and wingers), Jogging 👟, Painting 🎨 and Crochet 🧶.
+					Other than programming I also have many other hobbies that I love. These include rugby 🏉 (repping flyhalfs and wingers), Jogging 👟, Painting 🎨 and Crochet 🧶.
 					</p>
 				</section>
 			</section>
 			<section>
-				<span className='badge badge-green'>TypeScript/JavaScript</span>
-				<span className='badge badge-blue'>ReactJS (NEXT.JS)</span>
-				<span className='badge badge-blue'>React Native</span>
+				<span className='badge badge-green'>JavaScript/TypeScript</span>
 				<span className='badge badge-green'>C/C++</span>
-				<span className='badge badge-blue'>OpenGL</span>
 				<span className='badge badge-green'>Ruby</span>
 				<span className='badge badge-green'>Dart</span>
+				<span className='badge badge-green'>Go</span>
+				<span className='badge badge-blue'>ReactJS</span>
+				<span className='badge badge-blue'>React Native</span>
+				<span className='badge badge-blue'>NEXT.js</span>
+				<span className='badge badge-blue'>OpenGL</span>
 				<span className='badge badge-blue'>Flutter</span>
-				<span className='badge'>(No)SQL</span>
-				<span className='badge'>UX/UI</span>
-				<span className='badge'>Bash/Shell</span>
+				<span className='badge'>MySQL</span>
+				<span className='badge'>REST</span>
+				<span className='badge'>Linux</span>
+				<span className='badge'>Shell Scripting</span>
 				<span className='badge'>Google Cloud Platform</span>
 			</section>
 		</>
