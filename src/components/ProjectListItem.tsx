@@ -29,7 +29,7 @@ export const ProjectListItem: NextPage<Props> = (props: Props) => {
 					<div>
 						<strong>{props.title}</strong>
 					</div>
-					<Link href={props.repo}>
+					<Link href={props.repo} >
 						<a className={style.icon}>
 							<FiGithub />
 							Github
