@@ -3,8 +3,8 @@
 		"icon": "/icons/gobox.png",
 		"title": "gobox",
 		"website": "https://gobox.dev",
-		"repo": "https://github.com/songmawa/react-stag",
-		"desc": "Quick file upload and sharing service (predecessor to pndome).",
+		"repo": "https://github.com/ottxrgxist/react-stag",
+		"desc": "The predecessor to 'pndo.me'. A general-purpose file sharing application developedusing Go and JavaScript.",
 		"tags": [
 			"Golang",
 			"JavaScript"
@@ -13,17 +13,16 @@
 	{
 		"icon": "/icons/kurisu.png",
 		"title": "kurisu",
-		"website": "https://tro.moe",
 		"repo": "https://github.com/Tromodolo/Kurisu",
-		"desc": "General purpose discord chatbot. Made by the amazing Filip Ekström ✨.",
+		"desc": "Kurisu is a general-purpose chat bot for the online community app Discord. Made with the amazing Filip Ekström ✨.",
 		"tags": [
 			"TypeScript"
 		]
 	},
 	{
 		"title": "sorbet",
-		"repo": "https://github.com/songmawa/sorbet",
-		"desc": "Very mini game engine with a built in physics engine & and entity component system.",
+		"repo": "https://github.com/ottxrgxist/sorbet",
+		"desc": "A very mini game engine with a simple physics engine and entity component system.",
 		"tags": [
 			"C",
 			"OpenGL",
@@ -32,8 +31,8 @@
 	},
 	{
 		"title": "paint32",
-		"repo": "https://github.com/songmawa/paint32",
-		"desc": "Simple paint application with pen and bucket tool. Used to demonstrate floodfill (Algorithm analysis class)",
+		"repo": "https://github.com/ottxrgxist/paint32",
+		"desc": "Simple paint application with pen and bucket tool. Built alongside a presentation to demonstrate the floodfill algorithm (Algorithm analysis class)",
 		"tags": [
 			"C++",
 			"OpenGL"
