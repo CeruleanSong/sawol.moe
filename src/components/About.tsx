@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { NextPage } from 'next';
 import React from 'react';
-import { FiGithub, FiLinkedin, FiMail } from 'react-icons/fi';
+import { FiDownload, FiGithub, FiLinkedin, FiMail } from 'react-icons/fi';
 
 import style from './About.module.scss';
 
@@ -34,13 +34,19 @@ export const About: NextPage<Props> = () => {
 						elias@emawa.io
 						</a>
 					</Link>
+					<Link href='/resume/resume.pdf'>
+						<a className={style.icon}>
+							<FiDownload />
+						resume
+						</a>
+					</Link>
 				</section>
 				<section>
 					<p>
 					Hello I am Elias Mawa, a developer from Edmonton, Alberta.
 					</p>
 					<p>
-					I have experience building web and mobile applications. I also have experince building backends and RESFUL API's.
+					I have experience building web and mobile applications. I also have experince building backends and RESFUL APIs.
 					</p>
 					<p>
 					Other than programming I also have many other hobbies that I love. These include rugby 🏉 (repping flyhalfs and wingers), Jogging 👟, Painting 🎨 and Crochet 🧶.
