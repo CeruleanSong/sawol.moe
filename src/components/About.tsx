@@ -34,10 +34,12 @@ export const About: NextPage<Props> = () => {
 						elias@emawa.io
 						</a>
 					</Link>
+				</section>
+				<section>
 					<Link href='/resume/resume.pdf'>
 						<a className={style.icon}>
 							<FiDownload />
-						resume
+							resume
 						</a>
 					</Link>
 				</section>
