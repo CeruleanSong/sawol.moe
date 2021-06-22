@@ -6,8 +6,21 @@
 		"repo": "https://github.com/ottxrgxist/react-stag",
 		"desc": "The predecessor to 'pndo.me'. A general-purpose file sharing application developedusing Go and JavaScript.",
 		"tags": [
-			"Golang",
+			"Go",
 			"JavaScript"
+		]
+	},
+	{
+		"icon": "/icons/iizume.png",
+		"title": "iizu.me",
+		"website": "https://iizu.me",
+		"repo": "https://github.com/ottxrgxist/iizume",
+		"desc": "Free and open source mobile application and API for browsing, downloading and reading manga.",
+		"tags": [
+			"Ruby",
+			"React Native",
+			"TypeScript",
+			"KoaJS/ExpressJS"
 		]
 	},
 	{

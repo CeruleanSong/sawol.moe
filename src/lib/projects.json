@@ -12,22 +12,9 @@
 		]
 	},
 	{
-		"icon": "/icons/iizume.png",
-		"title": "iizu.me",
-		"website": "https://iizu.me",
-		"repo": "https://github.com/ottxrgxist/iizume",
-		"desc": "Free and open source mobile application and API for browsing, downloading and reading manga.",
-		"tags": [
-			"Ruby",
-			"React Native",
-			"TypeScript",
-			"KoaJS/ExpressJS"
-		]
-	},
-	{
 		"icon": "/icons/stag.png",
 		"title": "stag",
-		"website": "https://stag.dev",
+		"website": "https://stagcss.dev",
 		"repo": "https://github.com/ottxrgxist/stag",
 		"desc": "Stag is a theme-able and modular CSS framework developed using pure SASS. Based on flexbox with a mobile friendly design, the framework also conforms to modern CSS3 & HTML5 standards.",
 		"tags": [
