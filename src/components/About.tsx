@@ -16,7 +16,7 @@ export const About: NextPage<Props> = () => {
 					<h1>Elias Mawa</h1>
 				</Link>
 				<section>
-					<Link href='https://github.com/ottxrgxist'>
+					<Link href='https://github.com/soikaraa'>
 						<a className={style.icon}>
 							<FiGithub />
 						Github
