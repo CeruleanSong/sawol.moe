@@ -3,7 +3,7 @@
 		"icon": "/icons/gobox.png",
 		"title": "gobox",
 		"website": "https://gobox.dev",
-		"repo": "https://github.com/ottxrgxist/gobox-server-go",
+		"repo": "https://github.com/theluckyegg/gobox-server-go",
 		"desc": "The predecessor to 'pndo.me'. A general-purpose file sharing application developedusing Go and JavaScript.",
 		"tags": [
 			"Go",
@@ -14,7 +14,7 @@
 		"icon": "/icons/iizume.png",
 		"title": "iizu.me",
 		"website": "https://iizu.me",
-		"repo": "https://github.com/ottxrgxist/iizume",
+		"repo": "https://github.com/theluckyegg/iizume",
 		"desc": "Free and open source mobile application and API for browsing, downloading and reading manga.",
 		"tags": [
 			"Ruby",
@@ -34,7 +34,7 @@
 	},
 	{
 		"title": "sorbet",
-		"repo": "https://github.com/ottxrgxist/sorbet",
+		"repo": "https://github.com/theluckyegg/sorbet",
 		"desc": "A very mini game engine with a simple physics engine and entity component system.",
 		"tags": [
 			"C",
@@ -44,7 +44,7 @@
 	},
 	{
 		"title": "paint32",
-		"repo": "https://github.com/ottxrgxist/paint32",
+		"repo": "https://github.com/theluckyegg/paint32",
 		"desc": "Simple paint application with pen and bucket tool. Built alongside a presentation to demonstrate the floodfill algorithm (Algorithm analysis class)",
 		"tags": [
 			"C++",
