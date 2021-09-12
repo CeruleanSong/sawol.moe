@@ -3,7 +3,7 @@
 		"icon": "/icons/pndome.png",
 		"title": "pndo.me",
 		"website": "https://pndo.me",
-		"repo": "https://github.com/ottxrgxist/pndo.me-server",
+		"repo": "https://github.com/theluckyegg/pndo.me-server",
 		"desc": "The successor to 'GoBox'. The application implements a cleaner interface, an accounts system, and private files.",
 		"tags": [
 			"ReactJS",
@@ -15,7 +15,7 @@
 		"icon": "/icons/stag.png",
 		"title": "stag",
 		"website": "https://stagcss.dev",
-		"repo": "https://github.com/ottxrgxist/stag",
+		"repo": "https://github.com/theluckyegg/stag",
 		"desc": "Stag is a theme-able and modular CSS framework developed using pure SASS. Based on flexbox with a mobile friendly design, the framework also conforms to modern CSS3 & HTML5 standards.",
 		"tags": [
 			"SASS",
